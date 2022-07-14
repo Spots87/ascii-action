@@ -1,0 +1,15 @@
+name: 'ASCII Text'
+description: 'Display users text with ASCII art'
+inputs:
+  my-text:
+    description: 'Text to convert to ASCII art'
+    required: true
+    default: 'WOW'
+outputs:
+  cool-text:
+    description: 'ASCII art'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.my-text }}
