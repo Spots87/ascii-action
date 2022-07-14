@@ -1,4 +1,4 @@
-# Hello world docker action
+# ASCII art docker action
 
 This action prints "WOW" or user input as ASCII art to the log.
 
@@ -16,6 +16,6 @@ ASCII art
 
 ## Example usage
 
-uses: actions/docker-action@v1
+uses: Spots87/ascii-action@v1
 with:
   my-text: 'NEATO'
