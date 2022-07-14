@@ -8,12 +8,6 @@ This action prints "WOW" or user input as ASCII art to the log.
 
 **Required** Text to convert to ASCII art. Default `"WOW"`.
 
-## Outputs
-
-## `cool-text`
-
-ASCII art
-
 ## Example usage
 
 uses: Spots87/ascii-action@v1

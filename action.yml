@@ -5,9 +5,6 @@ inputs:
     description: 'Text to convert to ASCII art'
     required: true
     default: 'WOW'
-outputs:
-  cool-text:
-    description: 'ASCII art'
 runs:
   using: 'docker'
   image: 'Dockerfile'

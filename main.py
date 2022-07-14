@@ -7,7 +7,7 @@ def main():
 
     cool_text = text2art(user_input)
 
-    print(f"::set-output name=cool-text::{cool_text}")
+    print(cool_text)
 
 
 if __name__ == "__main__":
